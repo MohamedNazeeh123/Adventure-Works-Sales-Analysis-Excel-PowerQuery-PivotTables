@@ -25,5 +25,34 @@ The project uses **5 tables** from the AdventureWorks dataset:
 
 5. **DimDate**
    - Columns: OrderDate, DateKey, Year, Month, Day, MonthName, OrderDate
-   - 
+   - The Dimensional Data Model is STAR SCHEMA, as shown below: dataModel.png
 <img width="1362" height="768" alt="data model" src="https://github.com/user-attachments/assets/7662c054-6cb3-4569-addc-3665964f0ef4" />
+After data preparation in PowerQuery, I loaded data into Excel worksheet to start the analysis and visualization processes using Pivot Tables, as shown below:
+
+Pivot Tables:
+
+<img width="1366" height="728" alt="pivot table" src="https://github.com/user-attachments/assets/8b14e5d3-8a9d-4bcf-a758-af42ed7fd9b5" />
+## 📈 Dashboard Analysis
+
+The dashboard allows interactive filtering by:
+- Order Date
+- Year
+- Product Category
+
+### 📊 Main KPIs
+- Total Sales
+- Number of Orders
+- Number of Customers
+- Total Tax
+- Total Freight
+
+### 📊 Analytical Insights
+- Orders distribution by Ship Method
+- Top 5 best-selling Products
+- Sales performance by Territory
+- Monthly Sales Trend
+- Orders and Sales breakdown by Category
+FINAL Dashboard:
+
+<img width="1327" height="440" alt="dashboard" src="https://github.com/user-attachments/assets/18d58c26-7c50-4b88-b92d-a246a555f2e9" />
+data Source -> https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms
