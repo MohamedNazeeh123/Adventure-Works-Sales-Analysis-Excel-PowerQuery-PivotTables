@@ -52,6 +52,7 @@ The dashboard allows interactive filtering by:
 - Sales performance by Territory
 - Monthly Sales Trend
 - Orders and Sales breakdown by Category
+- 
 FINAL Dashboard:
 
 <img width="1327" height="440" alt="dashboard" src="https://github.com/user-attachments/assets/18d58c26-7c50-4b88-b92d-a246a555f2e9" />
